@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scaler Style Site</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-white text-gray-900 font-sans">
-    <!-- Navbar -->
-    <header class="bg-white shadow-md">
-      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-xl font-bold">MyScalerSite</h1>
-        <nav class="space-x-6 text-sm font-medium">
-          <a href="#" class="text-blue-600">Home</a>
-          <a href="#features">Features</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Gradient Tribe</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20">
-      <div class="max-w-4xl mx-auto px-6 text-center">
-        <h2 class="text-4xl font-bold mb-4">Upgrade Your Coding Skills</h2>
-        <p class="text-lg mb-6">
-          Learn with real-world projects, mentors from top tech companies, and a job-first curriculum.
-        </p>
-        <a
-          href="#features"
-          class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-100"
-        >
-          Explore Now
-        </a>
-      </div>
-    </section>
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-purple-600 to-pink-500 text-white p-6 shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">The Gradient Tribe</h1>
+      <nav class="space-x-4 text-sm font-medium">
+        <a href="#curriculum">Curriculum</a>
+        <a href="#progress">Progress</a>
+        <a href="#courses">Courses</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Features -->
-    <section id="features" class="py-16 bg-gray-50">
-      <div class="max-w-6xl mx-auto px-4 text-center">
-        <h3 class="text-2xl font-semibold mb-8">What You'll Get</h3>
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h4 class="text-lg font-bold mb-2">Live Classes</h4>
-            <p>Interactive sessions with industry experts.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h4 class="text-lg font-bold mb-2">1:1 Mentorship</h4>
-            <p>Guidance from top engineers at FAANG companies.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h4 class="text-lg font-bold mb-2">Job Support</h4>
-            <p>Dedicated placement assistance and interview prep.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- Hero -->
+  <section class="bg-gray-100 py-16 text-center">
+    <h2 class="text-4xl font-bold mb-4">Learn Machine Learning from Scratch</h2>
+    <p class="text-lg max-w-2xl mx-auto">Join The Gradient Tribe to access recorded lectures, enroll in various ML courses, and track your learning progress.</p>
+  </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-6 mt-12">
-      <div class="max-w-6xl mx-auto px-4 text-center">
-        <p>&copy; 2025 MyScalerSite. All rights reserved.</p>
+  <!-- Curriculum Section -->
+  <section id="curriculum" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-6 text-center">Curriculum</h3>
+      <ol class="list-decimal pl-6 space-y-2 text-lg">
+        <li>Introduction</li>
+        <li>Basics of Data, Statistics and Probability</li>
+        <li>Conditional Probability, Bayes’ Theorem, Bayesian Classifier & Bayesian Networks</li>
+        <li>Linear Models for Regression</li>
+        <li>Random Variables, Probability Distribution, Hypothesis Testing, Forecasting: Time Series Analysis</li>
+        <li>Linear Models for Classification & Decision Tree</li>
+        <li>Instance-based Learning</li>
+        <li>Linear Algebra & Vector Calculus: System of Equations, Vector Spaces and Optimization, Feature Processing</li>
+        <li>Support Vector Machine & Principal Component Analysis (PCA)</li>
+        <li>Ensemble Learning</li>
+        <li>Unsupervised Learning</li>
+        <li>Machine Learning Model Evaluation/Comparison</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Progress Report Section -->
+  <section id="progress" class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-6 text-center">Your Progress</h3>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <label class="block text-gray-700 font-medium mb-2">Course Progress</label>
+        <progress class="w-full h-6" value="45" max="100"></progress>
+        <p class="mt-2 text-gray-600">You have completed 45% of the course.</p>
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 The Gradient Tribe. All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
+
